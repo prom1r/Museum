@@ -1,0 +1,397 @@
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 0 auto;
+        max-width: 728px;
+    }
+    .section-title {
+        font-size: 40px;
+    }
+    /*               Section Welcome                */
+    .nici {
+        display: flex;
+        gap: 20px;
+        padding-top: 20px;
+    }
+    .top300 {
+        padding-top: 343px;
+        margin-left: 50px;
+        padding-bottom: 35px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+        width: 650px;
+    }
+    .snn-class {
+        padding-left: 214px;
+        padding-top: 35px;
+    }
+    .snn-class img {
+        width: 20px;
+        height: 20px;
+        padding: 10px;
+        border: 1px solid oldlace;
+        border-radius: 100px;
+        cursor: pointer;
+        margin-right: 25px;
+    }
+    #welcome {
+        height: 850px;
+    }
+    .welcome-position {
+        display: flex;
+        flex-direction: column;
+    }
+    .welcome-section-left {
+        position: relative;
+        flex-direction: column;
+    }
+    .welcome-section-left h2 {
+        line-height: 46px;
+        padding: 0;
+        text-align: center;
+    }
+    .welcome-section-left p {
+        text-align: center;
+        padding-top: 0;
+        font-size: 20px;
+    }
+    .monalisa {
+        position: relative;
+        /* padding-right: 10px; */
+        width: 100%;
+    }
+    .close-section button {
+        display: none;
+    }
+    .welcome-pagination-container {
+        position: relative;
+        padding-top: 40px;
+        width: auto;
+        padding-left: 160px;
+    }
+    .welcome-pagination-container-close {
+        display: none;
+    }
+    .welcome-pagination-container input:last-of-type {
+        margin-right: 40px;
+    }
+    .welcome-pagination-container button {
+        width: 12px;
+        height: 12px;
+        margin-right: 21px;
+        margin-left: 0;
+    }
+    .welcome-pagination-container button:last-of-type {
+        margin-right: 45px;
+    }
+    .welcome-pagination-container input:first-of-type {
+        margin-left: 0;
+    }
+    /*                   Section Visiting                   */
+    #visiting h2 {
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+    .visiting-card img {
+        width: 280px;
+        height: 180px;
+    }
+    .visiting-card h3 {
+        font-size: 22px;
+        margin: 0;
+    }
+    .visiting-card-flex {
+        gap: 30px 50px;
+        margin-top: 35px;
+        padding-bottom: 75px;
+        padding-left: 60px;
+    }
+    .visiting-card h3 {
+        font-size: 22px;
+        letter-spacing: 3px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    h3::after {
+        bottom: -5px;
+    }
+    .visiting-card p {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .visiting-card span {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    /*                    Section Explore                   */
+    .explore-h2 {
+        padding-bottom: 0px;
+        margin-top: 20px;
+    }
+    .explore-container img {
+        margin-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .explore-information p {
+        width: 200px;
+        height: 77px;
+    }
+    .explore-information p {
+        display: none;
+    }
+    /*                     Section Video                     */
+    .video-head-text h2 {
+        margin-bottom: 0;
+        margin-top: 60px;
+    }
+    .video-list :last-child {
+        display: none;
+    }
+    .poster {
+        width: 100%;
+        height: 329px;
+    }
+    .video-player {
+        height: auto;
+        padding-top: 0;
+    }
+    .video-list iframe {
+        width: 354px;
+        height: 199px;
+    }
+    .video-list {
+        padding-top: 20px;
+    }
+    .video-list-carousel img {
+        width: 12px;
+        margin-right: 12px;
+    }
+    .video-list-carousel {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .buttonplay img {
+        width: 55%;
+    }
+    .buttonplay {
+        position: absolute;
+        left: 44%;
+        top: 37%;
+    }
+    /*                       Section Gallery                    */
+    .gallery-h2 {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .gallery-column img {
+        width: 352px;
+    }
+    .gallery-column:nth-child(3) {
+        display: none;
+    }
+    /*                         Section Bye Tickets                   */
+    #tickets {
+        margin-top: 20px;
+    }
+    .tickets-container img {
+        padding-top: 20px;
+        width: 444px;
+        height: 340px;
+    }
+    .ticket-amount h4 {
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+    .ticket-amount h4:last-of-type {
+        padding-top: 45px;
+        padding-bottom: 30px;
+    }
+    .ticket-amount {
+        padding-left: 35px;
+    }
+    .tickets-container {
+        display: flex;
+        justify-content: left;
+        margin-bottom: 45px;
+    }
+    .parallax {
+        height: 300px;
+    }
+    /*                              Section Contacts                      */
+    .contacts-h2 {
+        padding-bottom: 10px;
+        margin-top: 15px;
+    }
+    .contacts-container {
+        display: flex;
+        flex-direction: column;
+    }
+    /* Section Footer*/
+    footer {
+        height: 392px;
+        width: 728px;
+    }
+    .contacts-container h4 {
+        width: 170px;
+        /* height: auto; */
+        margin: 0;
+        /* padding-top: 0; */
+        padding-bottom: 20px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .contacts-container p {
+        font-size: 18px;
+    }
+    .map-img-contacts {
+        padding-top: 25px;
+    }
+    /*              footer            */
+    footer {
+        height: 410px;
+        width: auto;
+    }
+    .footer-container {
+        display: flex;
+        height: 305px;
+    }
+    .brand.footer {
+        margin-right: 45px;
+        height: 31px;
+        padding-top: 50px;
+        padding-left: 0;
+        margin: 0;
+        font-size: 28px;
+    }
+    .nav-footer {
+        display: flex;
+        margin-top: 57px;
+        width: 350px;
+        position: relative;
+        padding-left: 99px;
+    }
+    nav ul {
+        justify-content: right;
+    }
+    .nav-footer li a {
+        font-size: 18px;
+    }
+    .social-networks {
+        position: absolute;
+        margin-left: auto;
+        gap: 30px;
+        padding-left: 0;
+        padding-top: 220px;
+        padding-right: 110px;
+    }
+    .social-networks img {
+        margin: 0;
+    }
+    .footer-rsshool {
+        justify-content: space-between;
+        padding-top: 40px;
+    }
+    .footer-rsshool div {
+        font-size: 22px;
+    }
+    .nav-footer ul:last-child {
+        margin-left: 160px;
+    }
+    /*Section modal*/
+    .booking-tickets {
+        display: block;
+        padding: 75px 10px 30px 30px;
+    }
+    .border-bottom.booking {
+        width: 530px;
+    }
+    .left-form {
+        width: 530px;
+    }
+    .museum-img {
+        padding-left: 370px;
+        padding-top: 780px;
+    }
+    .modal-content {
+        width: 590px;
+    }
+    input[type=date] {
+        width: 251px;
+    }
+    input[type=time] {
+        width: 251px;
+    }
+    .fname {
+        width: 485px;
+    }
+    input[type=tel] {
+        width: 485px;
+    }
+    input[type=email] {
+        width: 485px;
+    }
+    .select {
+        width: 530px;
+    }
+    .entry-ticket {
+        width: 530px;
+    }
+    .border-bottom.ticket {
+        width: 520px;
+        margin-left: 5px;
+    }
+    .entry-ticket h5 {
+        font-size: 18px;
+        width: 490px;
+    }
+    .price-ticket span {
+        font-size: 18px;
+    }
+    .right-form {
+        margin-left: 0;
+        width: 530px;
+        margin-top: 50px;
+        height: 665px;
+    }
+}
+
+@media screen and (max-width: 689px) {
+    .tickets-container {
+        display: block
+    }
+    .nav-footer ul:last-child {
+        margin-left: 0;
+    }
+    nav ul {
+        width: 100px;
+    }
+    .nav-footer {
+        padding-left: 30px;
+    }
+    .video-list iframe {
+        width: 210px;
+        height: 130px;
+    }
+    .monalisa {
+        width: 100%;
+        height: 100%;
+    }
+    #welcome {
+        height: 790px;
+    }
+    .welcome-pagination-container {
+        padding-top: 40px;
+        padding-left: 130px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .welcome-pagination-container {
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    #welcome {
+        height: 710px;
+    }
+}
