@@ -1,0 +1,47 @@
+/*!
+* chiefSlider
+*   site: https://itchief.ru/javascript/slider
+*   github: https://github.com/itchief/ui-components
+*
+* Copyright 2018-2021 Alexander Maltsev
+* Licensed under MIT (https://github.com/itchief/ui-components/blob/master/LICENSE)
+*/
+
+.sliders {
+    position: relative
+}
+
+.slider__container {
+    overflow: hidden
+}
+
+.slider__items {
+    display: flex;
+    transition: transform .5s ease
+}
+
+.slider_disable-transition {
+    transition: none
+}
+
+.slider__item {
+    flex: 0 0 50%;
+    max-width: 33.3333333%;
+    user-select: none
+}
+
+.slider__control::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+}
+
+.slider__control[data-slide=prev]::before {
+    background-image: url(assets/svg/Vector-left.svg)
+}
+
+.slider__control[data-slide=next]::before {
+    background-image: url(assets/svg/Vector-right.svg)
+}

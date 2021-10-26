@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>museum</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles(1024).css">
+    <link rel="stylesheet" href="styles(768).css">
+    <link rel="stylesheet" href="styles(420).css">
+    <link rel="stylesheet" href="styles(320).css">
+
+    <link rel="stylesheet" href="chief-slider.min.css">
+    <script defer src="chief-slider.min.js"></script>
+
+
+
+</head>
+
+<body>
+    <header class="dark-style">
+        <div class="container header-container ">
+            <div class="brand">
+                <div class="logo">
+                </div>
+                <span>louvre</span>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="hover-nav" href="#visiting">Visiting</a>
+                    </li>
+                    <li>
+                        <a class="hover-nav" href="#explore">Explore</a>
+                    </li>
+                    <li>
+                        <a class="hover-nav" href="#video">Video</a>
+                    </li>
+                    <li>
+                        <a class="hover-nav" href="#gallery">Gallery</a>
+                    </li>
+                    <li>
+                        <a class="hover-nav" href="#tickets">Tickets</a>
+                    </li>
+                    <li>
+                        <a class="hover-nav" href="#contacts">Contacts</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <div class="burger-off burger-on">
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Section Welcome -->
+        <section id="welcome" class="dark-style">
+            <div class="container welcome-position">
+                <div class="welcome-section-left">
+                    <div class="burger-section ">
+                        <div class="burger-menu">
+                            <a href="#visiting" class="burgerclass">
+                                <p class="hover-nav click">Visiting<span><img src="assets/svg/arrow-brg.svg"></span>
+                                </p>
+                            </a>
+                            <a href="#explore" class="burgerclass">
+                                <p class="hover-nav">Explore<span><img src="assets/svg/arrow-brg.svg"></span></p>
+                            </a>
+                            <a href="#video" class="burgerclass">
+                                <p class="hover-nav">Video<span><img src="assets/svg/arrow-brg.svg"></span></p>
+                            </a>
+                            <a href="#gallery" class="burgerclass">
+                                <p class="hover-nav">Gallery<span><img src="assets/svg/arrow-brg.svg"></span></p>
+                            </a>
+                            <a href="#tickets" class="burgerclass">
+                                <p class="hover-nav">Tickets<span><img src="assets/svg/arrow-brg.svg"></span></p>
+                            </a>
+                            <a href="#contacts" class="burgerclass">
+                                <p class="hover-nav">Contacts<span><img src="assets/svg/arrow-brg.svg"></span></p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="close-section">
+                        <h2 class="section-title">welcome <br> to the louvre</h2>
+                        <p> From the castle to the museum</p>
+                        <form action="https://www.google.com/maps/@48.8618159,2.3366818,3a,75y,81.55h,73.4t/data=!3m7!1e1!3m5!1sAF1QipOVxZQuSy3Bx9T_HpH_7FtBHDTXvI6SF-A10ocT!2e10!3e12!7i5472!8i2736">
+                            <button type="submit" class="hover-btn">Discover the Louvre</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="monalisa">
+                    <div class="flex-wrapper">
+
+                        <div class="slider-wrapper ">
+                            <div class="slide active prev textt topp">
+                                <img src="assets/img/slides1.jpg">
+                            </div>
+                            <div class="slide textt">
+                                <img src="assets/img/slides2.jpeg">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/img/slides3.jpeg">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/img/slides4.jpeg">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/img/slides5.jpeg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav-images-change top300">
+                    <img src="assets/img/top-nav.jpg">
+                    <div class="nici">
+                        <img src="assets/img/bottom-left.jpg">
+                        <img src="assets/img/bottom-right.jpg">
+                    </div>
+                </div>
+                <div>
+                    <div class="social-networks-nav snn-class">
+                        <a href="https://www.youtube.com/user/louvre">
+                            <img class="hover-sn" src="assets/svg/youtube.svg" alt="youtube">
+                        </a>
+                        <a href="https://www.instagram.com/museelouvre/">
+                            <img class="hover-sn" src="assets/svg/instagram.svg" alt="instagram">
+                        </a>
+                        <a href="https://www.facebook.com/museedulouvre">
+                            <img class="hover-sn" src="assets/svg/facebook.svg" alt="facebook">
+                        </a>
+                        <a href="https://twitter.com/museelouvre">
+                            <img class="hover-sn" src="assets/svg/twiter.svg" alt="twitter">
+                        </a>
+
+                        <a href="https://www.pinterest.fr/museedulouvre/">
+                            <img class="hover-sn" src="assets/svg/pinterest.svg" alt="pinterest">
+                        </a>
+                    </div>
+                </div>
+                <div class="welcome-pagination-container">
+                    <div>
+                        <input type="text" id="number-img-check" value="01">
+                        <span>|</span>
+                        <input type="text" value="05">
+                    </div>
+                    <div>
+                        <button class="hover-btn btn active"></button>
+                        <button class="hover-btn btn"></button>
+                        <button class="hover-btn btn"></button>
+                        <button class="hover-btn btn"></button>
+                        <button class="hover-btn btn"></button>
+                    </div>
+                    <div class="pagination-container-arrow">
+                        <div class="arrow-left hover-sn"></div>
+                        <div class="arrow-right hover-sn"> </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section Visiting -->
+        <section id="visiting">
+            <div class="container">
+                <h2 class="section-title dark  border-bottom" id="1">virtual tour</h2>
+                <div class="visiting-card-flex ">
+                    <div class="visiting-card">
+                        <img src="assets/img/royal-palace.jpg" alt="royal palace">
+                        <h3>royal palace</h3>
+                        <p>360&#176; Virtual Tour</p>
+                        <span>Google Street Panorama View</span>
+                    </div>
+                    <div class="visiting-card">
+                        <img src="assets/img/denon-wing.jpg" alt="denon wing">
+                        <h3>Denon Wing</h3>
+                        <p>360&#176; Virtual Tour</p>
+                        <span>Google Street Panorama View</span>
+                    </div>
+                    <div class="visiting-card">
+                        <img src="assets/img/colonnade-perrault.jpg" alt="colonnade perrault">
+                        <h3>colonnade perrault</h3>
+                        <p>360&#176; Virtual Tour</p>
+                        <span>Google Street Panorama View</span>
+                    </div>
+                    <div class="visiting-card">
+                        <img src="assets/img/greek-hall.jpg" alt="greek hall">
+                        <h3>greek hall</h3>
+                        <p>360&#176; Virtual Tour</p>
+                        <span>Google Street Panorama View</span>
+                    </div>
+                    <div class="visiting-card">
+                        <img src="assets/img/mona-lisa.jpg" alt="mona-lisa">
+                        <h3>mona lisa</h3>
+                        <p>360&#176; Virtual Tour</p>
+                        <span>Google Street Panorama View</span>
+                    </div>
+                    <div class="visiting-card">
+                        <img src="assets/img/night-palace.jpg" alt="night-palace">
+                        <h3>night palace</h3>
+                        <p>360&#176; Virtual Tour</p>
+                        <span>Google Street Panorama View</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section Explore -->
+        <section id="explore" class="dark-style ">
+            <div class="container">
+                <div class="explore-container">
+                    <div class="explore-information">
+                        <h2 class="section-title  border-bottom explore-h2">picture explore</h2>
+                        <p>Las Meninas is a 1656 painting by Diego Vel&#225;zquez, the leading artist of the Spanish Golden Age.</p>
+                        <p>It was cleaned in 1984 to remove a <span>"yellow veil"</span> of dust that had gathered since the previous restoration in the 19th century.</p>
+                        <p>The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.</p>
+                    </div>
+                    <div class="img-container">
+                        <img id="img-bottom" class="img-bottom" src="assets/img/new.png" alt="new img">
+                        <div id="img-top-container">
+                            <img id="img-top" class="img-top" src="assets/img/old.png" alt="old img">
+                        </div>
+
+                        <img id="slider" alt="slider" class="slider" src="assets/svg/explore-slider.svg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section Video -->
+        <section id="video">
+            <div class="container">
+                <div class="video-head-text">
+                    <h2 class="section-title dark video-h2">Video journey</h2>
+                    <p>Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</p>
+                </div>
+                <div class="full-player">
+                    <div class="head-video" style="position: relative; background-color: black;">
+                        <div style="width: auto;" class="central-button-play">
+                            <img src="assets/svg/Frame.svg">
+                        </div>
+                        <video poster="assets/img/poster.jpg" id="video-player" class="poster-video">
+                <source id = "louvre"  src="assets/video/Welcome_to_the_Louvre.mp4" class="src-video"  type="video/mp4"></video>
+                    </div>
+                    <div class="control-panel">
+                        <div class="button-play">
+                            <button id='play'><img src="assets/svg/play.png"></button>
+                        </div>
+                        <div class="button-pause">
+                            <button id='pause'><img src="assets/svg/pause.svg"></button>
+                        </div>
+                        <div>
+                            <progress id="progress" max="100" value="0" class="styled "></progress>
+                        </div>
+                        <div class="icon-volume">
+                            <button><img src="assets/svg/volume.svg"></button>
+                        </div>
+                        <div class="icon-volume-mute">
+                            <button><img src="assets/svg/mute.svg"></button>
+                        </div>
+                        <div>
+                            <input type="range" class="volume" id='volume' min="0" max="100" value="0">
+                        </div>
+                        <div class="full-screen">
+                            <button><img src="assets/svg/Group-fullscreen.svg"></button>
+                        </div>
+                        <div class="full-screen-exit">
+                            <button><img src="assets/svg/fullscreen_exit.svg"></button>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: none;"><button id='speed-up'>Faster</button></div>
+                <div style="display: none;"><button id='speed-down'>Slowly</button></div>
+                <div style="display: none;"><button id='normal'>Normal</button></div>
+                <div class="containers">
+                    <div class="sliders">
+                        <div class="slider__wrapper">
+                            <div class="slider__items">
+                                <div class="slider__item">
+                                    <iframe width="452" height="254" src="https://www.youtube.com/embed/zp1BXPX8jcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <div class="slider__item">
+                                    <iframe width="452" height="254" src="https://www.youtube.com/embed/aWmJ5DgyWPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <div class="slider__item">
+                                    <iframe width="452" height="254" src="https://www.youtube.com/embed/Vi5D6FKhRmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <div class="slider__item">
+                                    <iframe width="452" height="254" src="https://www.youtube.com/embed/NOhDysLnTvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                    </iframe>
+                                </div>
+                                <div class="slider__item">
+                                    <iframe width="452" height="254" src="https://www.youtube.com/embed/2OR0OCr6uRE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                             </iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-list-carousel">
+                            <a href="#" class="slider__control left-video" data-slide="prev"></a>
+                            <button class="btn-video active"></button>
+                            <button class="btn-video"></button>
+                            <button class="btn-video"></button>
+                            <button class="btn-video"></button>
+                            <button class="btn-video"></button>
+                            <a href="#" class="slider__control right-video" data-slide="next"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section Gallery -->
+        <section id="gallery" class="dark-style">
+            <div class="container ">
+                <h2 class="section-title gallery-h2">art gallery</h2>
+                <div class="gallery-column-container">
+                    <div class="gallery-column">
+                    </div>
+                    <div class="gallery-column">
+                    </div>
+                    <div class="gallery-column">
+                    </div>
+                </div>
+            </div>
+            <div class="blackout">
+            </div>
+        </section>
+        <!-- Section Buy tickets -->
+        <section id="buy-tickets">
+            <div class="container ">
+                <h2 class="section-title dark border-bottom tickets-h2" id="tickets">buy tickets</h2>
+                <div class="tickets-container">
+                    <div>
+                        <img src="assets/img/tickets-img.jpg" alt="painting">
+                    </div>
+                    <div class="ticket-type ">
+                        <h4>Ticket Type</h4>
+                        <label class="custom-radio">
+                        <input type="radio" id="price20" checked="checked" name="radio">
+                        <span>Permanent exhibition</span>
+                        </label>
+                        <label class="custom-radio">
+                        <input type="radio" id="price25" name="radio">
+                        <span>Temporary exhibition</span>
+                        </label>
+                        <label class="custom-radio">
+                        <input type="radio" id="price40"  name="radio">
+                        <span>Combined Admission</span>
+                        </label>
+                    </div>
+                    <div class="ticket-amount">
+                        <h4>Amount</h4>
+                        <p>Basic 18+</p>
+                        <div>
+                            <button class="plus-minus" type="button" onclick="this.nextElementSibling.stepDown()">&minus;</button>
+                            <input id="basic-number" type="number" min="0" max="20" value="1" class="number">
+                            <button class="plus-minus" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                        </div>
+                        <p>Senior 65+</p>
+                        <div>
+                            <button class="plus-minus" type="button" onclick="this.nextElementSibling.stepDown()">&minus;</button>
+                            <input id="senior-number" type="number" min="0" max="20" value="1" class="number">
+                            <button class="plus-minus" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                        </div>
+                        <h4 id='answer-price'>Total&#8364; 0</h4>
+                        <button id="myBtn" class="button-buy hover-btn">Buy Now</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <div>
+            <div class="parallax"></div>
+        </div>
+        <!--Section Contacts-->
+        <section id="contacts">
+            <div class="container">
+                <h2 class="section-title dark border-bottom contacts-h2">contacts</h2>
+                <div class="contacts-container">
+                    <div>
+                        <h4>Palais Royal Musee du Louvre</h4>
+                        <p>address: 75001 Paris, France</p>
+                        <p>phone: <a class="hover-nav" href="tel:+33(0)140205050">+33(0) 1 40 20 50 50</a></p>
+                        <p>mail: <a class="hover-nav" href="mailto:info@louvre.fr">info@louvre.fr</a></p>
+                    </div>
+                    <div style="width: 960px; height: 620px;">
+                        <iframe width='100%' height='100%' src="https://api.mapbox.com/styles/v1/prom1r/ckuhdr53l47yn17ql08u7isyq.html?title=false&access_token=pk.eyJ1IjoicHJvbTFyIiwiYSI6ImNrdWd4aHh6aTI2YzIycG12MWcwajdycDUifQ.trOI6akcoHVCfP0lRa8MHA&zoomwheel=false#15.92/48.86061/2.336528/0/14"
+                            title="Monochrome" style="border:none;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--Section footer-->
+    <footer class="dark-style">
+        <div class="container ">
+            <div class="footer-container ">
+                <div class="brand  footer">
+                    <div class="logo  footer">
+                    </div>
+                    <span>louvre</span>
+                </div>
+                <nav class="nav-footer">
+                    <ul>
+                        <li>
+                            <a class="hover-nav" href="#visiting">Visiting</a>
+                        </li>
+                        <li>
+                            <a class="hover-nav" href="#explore">Explore</a>
+                        </li>
+                        <li>
+                            <a class="hover-nav" href="#video">Video</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a class="hover-nav" href="#gallery">Gallery</a>
+                        </li>
+                        <li>
+                            <a class="hover-nav" href="#tickets">Tickets</a>
+                        </li>
+                        <li>
+                            <a class="hover-nav" href="#contacts">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social-networks">
+                    <a href="https://www.youtube.com/user/louvre">
+                        <img class="hover-sn" src="assets/svg/youtube.svg" alt="youtube">
+                    </a>
+                    <a href="https://www.instagram.com/museelouvre/">
+                        <img class="hover-sn" src="assets/svg/instagram.svg" alt="instagram">
+                    </a>
+                    <a href="https://www.facebook.com/museedulouvre">
+                        <img class="hover-sn" src="assets/svg/facebook.svg" alt="facebook">
+                    </a>
+                    <a href="https://twitter.com/museelouvre">
+                        <img class="hover-sn" src="assets/svg/twiter.svg" alt="twitter">
+                    </a>
+                    <a href="https://www.pinterest.fr/museedulouvre/">
+                        <img class="hover-sn" src="assets/svg/pinterest.svg" alt="pinterest">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-rsshool">
+                <div>&copy; 2021</div>
+                <div><a class="hover-nav deleted-rs" href="https://rs.school/js/">The Rolling Scopes School</a></div>
+                <div><a class="hover-nav" href="https://github.com/prom1r">prom1r</a></div>
+            </div>
+        </div>
+    </footer>
+    <!--Section Bye tickets-->
+    <section>
+        <div id="myModal" class="modal close stop-animation">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="booking-tickets">
+                        <img class="museum-img" src="assets/img/booking-tickets-img.jpg" alt="museum louvre">
+                        <div class="left-form">
+                            <div class="logo  booking">
+                            </div>
+                            <h2 class="section-title-booking ">booking tickets</h2>
+                            <p class="  p-tour">Tour to Louvre</p>
+                            <form>
+                                <div class="date-time">
+                                    <div>
+                                        <input type="date" id="date" name="date">
+                                    </div>
+                                    <div>
+                                        <input type="time" id="time" name="time">
+                                    </div>
+                                </div>
+                                <input type="text" id="fname" name="fname" class="fname" placeholder="Name">
+                                <input type="email" id="email" name="email" placeholder="Email">
+                                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone">
+                                <select id="select-ticket-type" name="tickets" class="select">
+                                    <option>Ticket Type</option>
+                                    <option value="Permanent">Permanent exhibition</option>
+                                    <option value="Temporary">Temporary exhibition</option>
+                                    <option value="Temporary">Combined Admission</option>
+                                  </select>
+                            </form>
+                            <div class="entry-ticket">
+                                <h5 class=" ticket">Entry ticket</h5>
+                                <div class="price-ticket">
+                                    <span id="span-ticket-basic">Basic 18+ (20 €)</span>
+                                    <div>
+                                        <button class="plus-minus" type="button" onclick="this.nextElementSibling.stepDown()">&minus;</button>
+                                        <input id="entry-ticket-basic" type="number" min="0" max="20" value="1" readonly class="number2">
+                                        <button class="plus-minus" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                                    </div>
+                                </div>
+                                <div class="price-ticket">
+                                    <span id="span-ticket-senior">Senior 65+ (10 €)</span>
+                                    <div>
+                                        <button type="button" onclick="this.nextElementSibling.stepDown()">&minus;</button>
+                                        <input id="entry-ticket-senior" type="number" min="0" max="20" value="1" readonly class="number2">
+                                        <button type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-form">
+                            <div class="ticket-price">
+                                <h4>Overview</h4>
+                                <p>Tour to Louvre</p>
+                                <div class="ticket-price-date">
+                                    <img src="assets/svg/date-fill.svg" alt="icon calendar">
+                                    <span>Friday, August 19</span>
+                                </div>
+                                <div class="ticket-price-time">
+                                    <img src="assets/svg/time.svg" alt="icon time">
+                                    <span>16 : 30</span>
+                                </div>
+                                <div class="ticket-price-exhibition">
+                                    <img src="assets/svg/check.svg" alt="icon check">
+                                    <span>Temporary exhibition</span>
+                                </div>
+                                <div class="basic-senior">
+                                    <div class="amount-ticket-prices">
+                                        <p id="first">2</p>
+                                        <p id="first-ticket">Basic (20 €)</p>
+                                        <p id="summ-basic">40 €</p>
+                                    </div>
+                                    <div class="amount-ticket-prices">
+                                        <p id="two">2</p>
+                                        <p id="two-ticket">Senior (10 €)</p>
+                                        <p id="summ-senior">20 €</p>
+                                    </div>
+                                    <div class="amount-ticket-prices total">
+                                        <p>Total:</p>
+                                        <p id="answer-tickets">60 €</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="two-cards">
+                                <div class="first-card">
+                                    <div class="card-number-visa">
+                                        <div class="card-number">
+                                            <p>Card number</p>
+                                            <input type="number" id="number-card" name="number-card">
+                                        </div>
+                                        <div>
+                                            <div><img src="assets/svg/visa.png" alt="icon visa mastercard"></div>
+                                        </div>
+                                    </div>
+                                    <div class="card-date-macstercard">
+                                        <div class="card-mounth">
+                                            <p>Expiration date</p>
+                                            <input type="number" id="datecard-month" name="date-card-month">
+                                        </div>
+
+                                        <div class="card-years">
+                                            <input type="number" id="datecard-years" name="date card-years">
+                                        </div>
+                                    </div>
+                                    <div class="card-name">
+                                        <p>Cardholder name</p>
+                                        <input type="text" id="cardholder-name" name="cardholder">
+                                    </div>
+                                </div>
+                                <div class="second-card">
+                                    <div class="black-line-card">
+                                    </div>
+                                    <div class="protective-code-card">
+                                        <p>CVC/CVV</p>
+                                        <input type="number" min="0" max="3" name="cvc">
+                                        <p>The last 3 or 4 digits on back of the card</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="hover-btn">Book</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="close-modal-window">
+                    <span class="close-btn"><img src="assets/svg/Close.svg" alt="button close"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        var modal = document.getElementById("myModal");
+        setTimeout(() => modal.classList.remove('stop-animation'), 500);
+        var btn = document.getElementById("myBtn");
+        var span = document.getElementsByClassName("close-btn")[0];
+        btn.onclick = function() {
+            modal.classList.remove('close');
+        }
+        span.onclick = function() {
+            modal.classList.add('close');
+        }
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.classList.add('close');
+            }
+        }
+    </script>
+    <script>
+        function addImage(parent, img) {
+            const element = document.createElement('img');
+            element.src = img.src;
+            element.alt = img.alt;
+            parent.appendChild(element);
+        }
+        const columns = document.getElementsByClassName('gallery-column');
+        const images = [{
+            src: 'assets/img/galery-culumn1.img1.jpg',
+            alt: 'statue'
+        }, {
+            src: 'assets/img/galery-culumn1.img2.jpg',
+            alt: 'statue'
+        }, {
+            src: 'assets/img/galery-culumn1.img3.jpg',
+            alt: 'statue'
+        }, {
+            src: 'assets/img/galery-culumn1.img4.jpg',
+            alt: 'statue'
+        }, {
+            src: 'assets/img/galery-culumn2.img1.jpg',
+            alt: 'statue'
+        }, {
+            src: 'assets/img/galery-culumn2.img2.jpg',
+            alt: 'statue'
+        }, {
+            src: 'assets/img/galery-culumn2.img3.jpg',
+            alt: 'statue'
+        }, {
+            src: 'assets/img/galery-culumn2.img4.jpg',
+            alt: 'statue'
+        }, {
+            src: 'assets/img/galery-culumn3.img1.jpg',
+            alt: 'statue'
+        }, {
+            src: 'assets/img/galery-culumn3.img2.jpg',
+            alt: 'statue'
+        }, {
+            src: 'assets/img/galery-culumn3.img3.jpg',
+            alt: 'statue'
+        }, {
+            src: 'assets/img/galery-culumn3.img4.jpg',
+            alt: 'statue'
+        }];
+        const randomImages = images.sort((a, b) => 0.5 - Math.random());
+
+        for (let i = 0; i < columns.length; i++) {
+            const columnImages = randomImages.slice(i * 4, (i + 1) * 4);
+            for (let elem of columnImages) {
+                addImage(columns[i], elem);
+            }
+
+        }
+    </script>
+
+
+    <script>
+        (function() {
+            const burger = document.querySelector('.burger-off');
+            const menu = document.querySelector('.close-section');
+            const burgerMenu = document.querySelector(".burger-section");
+            const monalisa = document.querySelector('.monalisa');
+            const newImage = document.querySelector('.nav-images-change');
+            const socialNetwork = document.querySelector('.social-networks-nav')
+            const carousel = document.querySelector('.welcome-pagination-container')
+            let widthMuseum = screen.width
+            burger.addEventListener('click', () => {
+                burger.classList.toggle('burger-off');
+                menu.classList.toggle('close-section-on');
+                burgerMenu.classList.toggle('burger-section-on');
+
+                carousel.classList.toggle('welcome-pagination-container-close')
+                if (widthMuseum = screen.width <= 768) {
+                    monalisa.classList.toggle('monalisa-close');
+                    newImage.classList.toggle('nav-images-change');
+                    socialNetwork.classList.toggle('social-networks-nav');
+
+
+                }
+
+            });
+        }());
+
+        (function() {
+            const burger = document.querySelector('.burger-on');
+            const menu = document.querySelector('.close-section');
+            const burgerMenu = document.querySelector('.burger-section')
+            const childmenu = document.getElementsByClassName('burgerclass');
+            const newImage = document.querySelector('.nav-images-change');
+            const monalisa = document.querySelector('.monalisa');
+            const socialNetwork = document.querySelector('.snn-class')
+            const carousel = document.querySelector('.welcome-pagination-container')
+            for (let elem of childmenu) {
+                elem.addEventListener('click', () => {
+                    burger.classList.toggle('burger-off');
+                    menu.classList.toggle('close-section-on');
+                    burgerMenu.classList.toggle('burger-section-on')
+                    carousel.classList.toggle('welcome-pagination-container-close')
+                    if (widthMuseum = screen.width <= 768) {
+                        monalisa.classList.toggle('monalisa-close');
+                        newImage.classList.toggle('nav-images-change');
+                        socialNetwork.classList.toggle('social-networks-nav');
+
+
+                    }
+
+                })
+            }
+
+        }());
+    </script>
+
+
+    <script>
+        let price20 = document.getElementById('price20');
+        let price25 = document.getElementById('price25');
+        let price40 = document.getElementById('price40');
+        let basic = document.getElementById('basic-number');
+        let senior = document.getElementById('senior-number');
+        let answerPrice = document.getElementById('answer-price');
+        /* bye tickets form*/
+        let basicValueEntry = document.getElementById('entry-ticket-basic')
+        let seniorValueEntry = document.getElementById('entry-ticket-senior')
+        let first = document.getElementById('first')
+        let two = document.getElementById('two')
+        let firstTicket = document.getElementById('first-ticket')
+        let twoTicket = document.getElementById('two-ticket')
+        let answerTicket = document.getElementById('answer-tickets')
+        let summBasic = document.getElementById('summ-basic')
+        let summSenior = document.getElementById('summ-senior')
+        let spanBasic = document.getElementById("span-ticket-basic")
+        let spanSenior = document.getElementById("span-ticket-senior")
+
+        let mathOperators = document.querySelectorAll('.plus-minus');
+        for (elem of mathOperators) {
+            elem.addEventListener('click', function() {
+                basicValueEntry.value = basic.value
+                seniorValueEntry.value = senior.value
+                first.innerHTML = basic.value
+                two.innerHTML = senior.value
+
+                if (price20.checked) {
+                    firstTicket.innerHTML = "Basic (20€)"
+                    twoTicket.innerHTML = "Basic (10€)"
+                    spanBasic.innerHTML = "Basic 18+ (20 €)"
+                    spanSenior.innerHTML = "Senior 65+ (10 €)"
+                    answerPrice.innerHTML = "Total &#8364;" + calculated20(basic.value, senior.value)
+                    answerTicket.innerHTML = calculated20(basic.value, senior.value) + ' &#8364;'
+                    summBasic.innerHTML = calculated20(basic.value, 0) + ' &#8364;'
+                    summSenior.innerHTML = calculated20(0, senior.value) + ' &#8364;'
+
+                } else if (price25.checked) {
+                    firstTicket.innerHTML = "Basic (22€)"
+                    twoTicket.innerHTML = "Basic (11€)"
+                    spanBasic.innerHTML = "Basic 18+ (22 €)"
+                    spanSenior.innerHTML = "Senior 65+ (11 €)"
+                    answerPrice.innerHTML = "Total &#8364;" + calculated25(basic.value, senior.value)
+                    answerTicket.innerHTML = calculated25(basic.value, senior.value) + ' &#8364;'
+                    summBasic.innerHTML = calculated25(basic.value, 0) + ' &#8364;'
+                    summSenior.innerHTML = calculated25(0, senior.value) + ' &#8364;'
+
+                } else if (price40.checked) {
+                    firstTicket.innerHTML = "Basic (40€)"
+                    twoTicket.innerHTML = "Basic (20€)"
+                    spanBasic.innerHTML = "Basic 18+ (40 €)"
+                    spanSenior.innerHTML = "Senior 65+ (20 €)"
+                    answerPrice.innerHTML = "Total &#8364;" + calculated40(basic.value, senior.value)
+                    answerTicket.innerHTML = calculated40(basic.value, senior.value) + ' &#8364;'
+                    summBasic.innerHTML = calculated40(basic.value, 0) + ' &#8364;'
+                    summSenior.innerHTML = calculated40(0, senior.value) + ' &#8364;'
+                }
+
+            })
+        }
+
+        function calculated20(num1, num2) {
+            return num1 * 20 + (num2 * 20) / 2
+        }
+
+        function calculated25(num1, num2) {
+            return num1 * 22 + (num2 * 22) / 2
+        }
+
+        function calculated40(num1, num2) {
+            return num1 * 40 + (num2 * 40) / 2
+        }
+        const ticketsArr = document.querySelectorAll('[type="radio"]')
+        for (elem of ticketsArr) {
+            elem.addEventListener('click', function() {
+                basic.value = 0
+                senior.value = 0
+                answerPrice.innerHTML = "Total &#8364;0"
+            })
+        }
+    </script>
+    <script src="custom-player.js"></script>
+    <script src="welcome-carousel.js"></script>
+    <script src="comparisonImg.js"></script>
+
+</body>
+
+</html>
